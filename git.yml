@@ -1,0 +1,8 @@
+---
+ hosts: all
+ become: yes
+ tasks: 
+ - name: instal git on ubuntu nodes
+   apt:
+    name: git
+    service: present
