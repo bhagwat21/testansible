@@ -5,4 +5,4 @@
  - name: install git on ubuntu nodes
    apt:
     name: git
-    service: present
+    state : present
