@@ -1,8 +1,8 @@
 ---
- - hosts : all
-   become : yes
+ - hosts: all
+   become: yes
    tasks: 
- -  name: install git on ubuntu nodes
-    apt:
-      name: git
-      state : present
+    -  name: install git on ubuntu nodes
+       apt :
+        name: git
+       state : present
